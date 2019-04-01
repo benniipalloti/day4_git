@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DAY 3</title>
+    <link rel="stylesheet" href="cssd3/styled3.css">
+</head>
+<body>
+        <div id="header">
+                <a id="logo" href="/">
+                    <img src="https://www.delidded.com/logo.png" alt="Delidded.com Logo" height="36">
+                </a>
+            
+                <!-- Using ul tag to hold menu links, which makes them easier to style. -->
+                <ul id="menu">
+                    <li><a href="/html/">HTML</a></li>
+                    <li><a href="/css/">CSS</a></li>
+                    <li><a href="/javascript/">JavaScript</a></li>
+                </ul>
+            
+                <!-- 2nd menu that will be on the right side of the header -->
+                <ul id="menu-right">
+                    <li><a href="/login/">Login</a></li>
+                </ul>
+            </div>
+            
+            <div id="main">
+                <h2>Delidded Web Design</h2>
+            
+                <p>Welcome to <span class="domain">delidded.com</span>.</p>
+            </div>
+            <form action="https://www.google.com">
+  
+                <fieldset>
+                  <legend>Personal Information</legend>
+                  
+                    <label for="full-name">Full Name</label>
+                    <input id="full-name" name="fullName" type="text">
+                  
+                  <p>
+                    <label for="email">Email Address</label>
+                    <input id="email" name="email" type="email">
+                  </p>
+                  <p>
+                    <label for="pass">Password anda</label>
+                    <input id="pass" name="pass" type="password">
+                  </p>
+                  <p>
+                    <label>File attch</label>
+                    <input type="file">
+                    <input type="range">
+                  </p>
+                </fieldset>
+                
+                
+                <fieldset>
+                  <legend>Work Information</legend>
+                  <!-- some other inputs -->
+                  <input type="text" name="programming" list="programmingLangs" />
+                  <datalist id="programmingLangs">
+                    <select name="altProgrammingLangs">
+                      <option value="javascript">JavaScript</option>
+                      <option value="java">Java</option>
+                      <option value="ruby">Ruby</option>
+                      <option value="python">Python</option>
+                    </select>
+                  </datalist>
+                  
+                  <select name="hobi">
+                      <option value="1">renang</option>
+                      <option value="2">basket</option>
+                      <option value="3">bola</option>
+                      <option value="4">jalan jalan</option>
+                    </select>
+                  
+                  <label for="gender">Gender:</label>
+                <input id="male-radio" type="radio" name="gender" value="male">
+                <label for="male-radio">Male</label>
+                <input id="female-radio" type="radio" name="gender" value="female">
+                <label for="female-radio">Female</label>
+                <br>
+                
+                <label for="skill">Skill:</label>
+                <input id="writing-checkbox" type="checkbox" name="skill" value="writing">
+                <label for="writing-checkbox">Writing</label>
+                <input id="reading-checkbox" type="checkbox" name="skill" value="reading">
+                <label for="reading-checkbox">Reading</label>
+                
+                </fieldset>
+                <input type="submit" value="Submit">
+                <button type="reset">batal</button>
+                
+                
+                
+              </form>
+
+</body>
+</html>
+
+
+<!-- bahan share tiap pertemuan akan dishare di google drive :
+goo.gl/Pn5zyj
+-->
